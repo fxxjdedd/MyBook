@@ -36,5 +36,12 @@
 		<string>UIInterfaceOrientationLandscapeLeft</string>
 		<string>UIInterfaceOrientationLandscapeRight</string>
 	</array>
+	<key>UIAppFonts</key>
+	<array>
+		<string>Papyrus.ttc</string>
+		<string>Libian.ttc</string>
+		<string>经典隶变简.TTF</string>
+		<string>Comic Sans MS.ttf</string>
+	</array>
 </dict>
 </plist>

@@ -13,10 +13,16 @@
 		1815EB751CE1E0B80069DBFB /* StudentViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1815EB741CE1E0B80069DBFB /* StudentViewController.swift */; };
 		1815EB771CE1E0C10069DBFB /* PencilViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1815EB761CE1E0C10069DBFB /* PencilViewController.swift */; };
 		1815EB791CE1E0CB0069DBFB /* BookViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1815EB781CE1E0CB0069DBFB /* BookViewController.swift */; };
+		18AD74FD1CE32008009E0592 /* PencilPushedViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18AD74FC1CE32008009E0592 /* PencilPushedViewController.swift */; };
+		18AD75041CE36338009E0592 /* Comic Sans MS.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 18AD75021CE36192009E0592 /* Comic Sans MS.ttf */; };
+		18AD75061CE36373009E0592 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 18FD359E1CE0CE37001D8F37 /* Assets.xcassets */; };
+		18AD75071CE3637C009E0592 /* Libian.ttc in Resources */ = {isa = PBXBuildFile; fileRef = 18AD75011CE323F3009E0592 /* Libian.ttc */; };
+		18AD75081CE36381009E0592 /* Libian.ttc in Sources */ = {isa = PBXBuildFile; fileRef = 18AD75011CE323F3009E0592 /* Libian.ttc */; };
+		18AD750B1CE44E91009E0592 /* Factory.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18AD750A1CE44E91009E0592 /* Factory.swift */; };
+		18AD750D1CE4B547009E0592 /* SwiftNotice.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18AD750C1CE4B547009E0592 /* SwiftNotice.swift */; };
 		18FD35981CE0CE37001D8F37 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18FD35971CE0CE37001D8F37 /* AppDelegate.swift */; };
 		18FD359A1CE0CE37001D8F37 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18FD35991CE0CE37001D8F37 /* ViewController.swift */; };
 		18FD359D1CE0CE37001D8F37 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 18FD359B1CE0CE37001D8F37 /* Main.storyboard */; };
-		18FD359F1CE0CE37001D8F37 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 18FD359E1CE0CE37001D8F37 /* Assets.xcassets */; };
 		18FD35A21CE0CE37001D8F37 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 18FD35A01CE0CE37001D8F37 /* LaunchScreen.storyboard */; };
 		18FD35AA1CE0CE52001D8F37 /* PodFile in Resources */ = {isa = PBXBuildFile; fileRef = 18FD35A91CE0CE52001D8F37 /* PodFile */; };
 		ED2CD7F3C225867EF92C202E /* libPods.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 1CDAD00E3CC499459AE3064D /* libPods.a */; };
@@ -29,6 +35,13 @@
 		1815EB741CE1E0B80069DBFB /* StudentViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = StudentViewController.swift; sourceTree = "<group>"; };
 		1815EB761CE1E0C10069DBFB /* PencilViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PencilViewController.swift; sourceTree = "<group>"; };
 		1815EB781CE1E0CB0069DBFB /* BookViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BookViewController.swift; sourceTree = "<group>"; };
+		18AD74FC1CE32008009E0592 /* PencilPushedViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PencilPushedViewController.swift; sourceTree = "<group>"; };
+		18AD74FF1CE321AE009E0592 /* 经典隶变简.TTF */ = {isa = PBXFileReference; lastKnownFileType = file; path = "经典隶变简.TTF"; sourceTree = "<group>"; };
+		18AD75001CE32246009E0592 /* Papyrus.ttc */ = {isa = PBXFileReference; lastKnownFileType = file; path = Papyrus.ttc; sourceTree = "<group>"; };
+		18AD75011CE323F3009E0592 /* Libian.ttc */ = {isa = PBXFileReference; lastKnownFileType = file; path = Libian.ttc; sourceTree = "<group>"; };
+		18AD75021CE36192009E0592 /* Comic Sans MS.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Comic Sans MS.ttf"; sourceTree = "<group>"; };
+		18AD750A1CE44E91009E0592 /* Factory.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Factory.swift; sourceTree = "<group>"; };
+		18AD750C1CE4B547009E0592 /* SwiftNotice.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SwiftNotice.swift; sourceTree = "<group>"; };
 		18FD35941CE0CE37001D8F37 /* MyBook.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MyBook.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		18FD35971CE0CE37001D8F37 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		18FD35991CE0CE37001D8F37 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -94,9 +107,37 @@
 			name = more;
 			sourceTree = "<group>";
 		};
+		18AD74FB1CE31FCE009E0592 /* PencilPushedViewController */ = {
+			isa = PBXGroup;
+			children = (
+				18AD74FC1CE32008009E0592 /* PencilPushedViewController.swift */,
+			);
+			name = PencilPushedViewController;
+			sourceTree = "<group>";
+		};
+		18AD74FE1CE32163009E0592 /* Resource */ = {
+			isa = PBXGroup;
+			children = (
+				18AD74FF1CE321AE009E0592 /* 经典隶变简.TTF */,
+				18AD75001CE32246009E0592 /* Papyrus.ttc */,
+				18AD75011CE323F3009E0592 /* Libian.ttc */,
+				18AD75021CE36192009E0592 /* Comic Sans MS.ttf */,
+			);
+			name = Resource;
+			sourceTree = "<group>";
+		};
+		18AD75091CE44E7A009E0592 /* Factory */ = {
+			isa = PBXGroup;
+			children = (
+				18AD750A1CE44E91009E0592 /* Factory.swift */,
+			);
+			name = Factory;
+			sourceTree = "<group>";
+		};
 		18FD358B1CE0CE37001D8F37 = {
 			isa = PBXGroup;
 			children = (
+				18AD74FE1CE32163009E0592 /* Resource */,
 				18FD35A91CE0CE52001D8F37 /* PodFile */,
 				18FD35961CE0CE37001D8F37 /* MyBook */,
 				18FD35951CE0CE37001D8F37 /* Products */,
@@ -116,10 +157,13 @@
 		18FD35961CE0CE37001D8F37 /* MyBook */ = {
 			isa = PBXGroup;
 			children = (
+				18AD750C1CE4B547009E0592 /* SwiftNotice.swift */,
 				18FD35971CE0CE37001D8F37 /* AppDelegate.swift */,
+				18AD75091CE44E7A009E0592 /* Factory */,
 				1815EB691CE1E03A0069DBFB /* more */,
 				1815EB681CE1E0330069DBFB /* student */,
 				1815EB671CE1E02D0069DBFB /* pencil */,
+				18AD74FB1CE31FCE009E0592 /* PencilPushedViewController */,
 				1815EB651CE1E01D0069DBFB /* earth */,
 				1815EB641CE1E0120069DBFB /* book */,
 				18FD35991CE0CE37001D8F37 /* ViewController.swift */,
@@ -211,8 +255,10 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				18AD75071CE3637C009E0592 /* Libian.ttc in Resources */,
+				18AD75061CE36373009E0592 /* Assets.xcassets in Resources */,
+				18AD75041CE36338009E0592 /* Comic Sans MS.ttf in Resources */,
 				18FD35A21CE0CE37001D8F37 /* LaunchScreen.storyboard in Resources */,
-				18FD359F1CE0CE37001D8F37 /* Assets.xcassets in Resources */,
 				18FD35AA1CE0CE52001D8F37 /* PodFile in Resources */,
 				18FD359D1CE0CE37001D8F37 /* Main.storyboard in Resources */,
 			);
@@ -273,9 +319,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				18AD75081CE36381009E0592 /* Libian.ttc in Sources */,
 				1815EB751CE1E0B80069DBFB /* StudentViewController.swift in Sources */,
+				18AD750B1CE44E91009E0592 /* Factory.swift in Sources */,
+				18AD750D1CE4B547009E0592 /* SwiftNotice.swift in Sources */,
 				1815EB771CE1E0C10069DBFB /* PencilViewController.swift in Sources */,
 				1815EB731CE1E0AD0069DBFB /* MoreViewController.swift in Sources */,
+				18AD74FD1CE32008009E0592 /* PencilPushedViewController.swift in Sources */,
 				1815EB711CE1E0970069DBFB /* EarthViewController.swift in Sources */,
 				1815EB631CE1DE430069DBFB /* config.swift in Sources */,
 				1815EB791CE1E0CB0069DBFB /* BookViewController.swift in Sources */,

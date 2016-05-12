@@ -26,7 +26,7 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
         let item3 = UITabBarItem(title: "评书", image: UIImage(named: "pencil0")?.imageWithRenderingMode(.AlwaysOriginal), selectedImage: UIImage(named: "pencil.png")?.imageWithRenderingMode(.AlwaysOriginal))
         let item4 = UITabBarItem(title: "圈子", image: UIImage(named: "student0")?.imageWithRenderingMode(.AlwaysOriginal), selectedImage: UIImage(named: "student.png")?.imageWithRenderingMode(.AlwaysOriginal))
         let item5 = UITabBarItem(title: "更多", image: UIImage(named: "more0")?.imageWithRenderingMode(.AlwaysOriginal), selectedImage: UIImage(named: "more.png")?.imageWithRenderingMode(.AlwaysOriginal))
-        
+        //navigationcontroller没法再pushnavigationcontroller
         let bookViewController = UINavigationController(rootViewController: BookViewController())
         
         let earthViewController = UINavigationController(rootViewController: EarthViewController())
@@ -36,16 +36,20 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
         let studentViewController = UINavigationController(rootViewController: StudentViewController())
 
         let moreViewController = UINavigationController(rootViewController: MoreViewController())
-
+        
+        
         bookViewController.tabBarItem = item1
         earthViewController.tabBarItem = item2
         pencilViewController.tabBarItem = item3
         studentViewController.tabBarItem = item4
         moreViewController.tabBarItem = item5
         
+        
+        
         tabBarController.viewControllers = [bookViewController,earthViewController,pencilViewController,studentViewController,moreViewController]
 
         tabBarController.tabBar.tintColor = MAIN_COLOR
+        
         self.window?.rootViewController = tabBarController
         
         return true
