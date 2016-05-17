@@ -13,6 +13,19 @@
 		1815EB751CE1E0B80069DBFB /* StudentViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1815EB741CE1E0B80069DBFB /* StudentViewController.swift */; };
 		1815EB771CE1E0C10069DBFB /* PencilViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1815EB761CE1E0C10069DBFB /* PencilViewController.swift */; };
 		1815EB791CE1E0CB0069DBFB /* BookViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1815EB781CE1E0CB0069DBFB /* BookViewController.swift */; };
+		188AFEF51CE59A4B008A40F6 /* AkiraTextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = 188AFEE91CE59A4B008A40F6 /* AkiraTextField.swift */; };
+		188AFEF61CE59A4B008A40F6 /* HoshiTextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = 188AFEEA1CE59A4B008A40F6 /* HoshiTextField.swift */; };
+		188AFEF71CE59A4B008A40F6 /* Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 188AFEEB1CE59A4B008A40F6 /* Info.plist */; };
+		188AFEF81CE59A4B008A40F6 /* IsaoTextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = 188AFEEC1CE59A4B008A40F6 /* IsaoTextField.swift */; };
+		188AFEF91CE59A4B008A40F6 /* JiroTextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = 188AFEED1CE59A4B008A40F6 /* JiroTextField.swift */; };
+		188AFEFA1CE59A4B008A40F6 /* KaedeTextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = 188AFEEE1CE59A4B008A40F6 /* KaedeTextField.swift */; };
+		188AFEFB1CE59A4B008A40F6 /* MadokaTextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = 188AFEEF1CE59A4B008A40F6 /* MadokaTextField.swift */; };
+		188AFEFC1CE59A4B008A40F6 /* MinoruTextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = 188AFEF01CE59A4B008A40F6 /* MinoruTextField.swift */; };
+		188AFEFD1CE59A4B008A40F6 /* TextFieldsEffects.swift in Sources */ = {isa = PBXBuildFile; fileRef = 188AFEF21CE59A4B008A40F6 /* TextFieldsEffects.swift */; };
+		188AFEFE1CE59A4B008A40F6 /* YokoTextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = 188AFEF31CE59A4B008A40F6 /* YokoTextField.swift */; };
+		188AFEFF1CE59A4B008A40F6 /* YoshikoTextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = 188AFEF41CE59A4B008A40F6 /* YoshikoTextField.swift */; };
+		188AFF051CE59AD2008A40F6 /* PencilPushedView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 188AFF041CE59AD2008A40F6 /* PencilPushedView.swift */; };
+		189D697D1CE5FC03007187B8 /* PhotoPickerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 189D697C1CE5FC03007187B8 /* PhotoPickerViewController.swift */; };
 		18AD74FD1CE32008009E0592 /* PencilPushedViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18AD74FC1CE32008009E0592 /* PencilPushedViewController.swift */; };
 		18AD75041CE36338009E0592 /* Comic Sans MS.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 18AD75021CE36192009E0592 /* Comic Sans MS.ttf */; };
 		18AD75061CE36373009E0592 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 18FD359E1CE0CE37001D8F37 /* Assets.xcassets */; };
@@ -21,7 +34,6 @@
 		18AD750B1CE44E91009E0592 /* Factory.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18AD750A1CE44E91009E0592 /* Factory.swift */; };
 		18AD750D1CE4B547009E0592 /* SwiftNotice.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18AD750C1CE4B547009E0592 /* SwiftNotice.swift */; };
 		18FD35981CE0CE37001D8F37 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18FD35971CE0CE37001D8F37 /* AppDelegate.swift */; };
-		18FD359A1CE0CE37001D8F37 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18FD35991CE0CE37001D8F37 /* ViewController.swift */; };
 		18FD359D1CE0CE37001D8F37 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 18FD359B1CE0CE37001D8F37 /* Main.storyboard */; };
 		18FD35A21CE0CE37001D8F37 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 18FD35A01CE0CE37001D8F37 /* LaunchScreen.storyboard */; };
 		18FD35AA1CE0CE52001D8F37 /* PodFile in Resources */ = {isa = PBXBuildFile; fileRef = 18FD35A91CE0CE52001D8F37 /* PodFile */; };
@@ -35,16 +47,30 @@
 		1815EB741CE1E0B80069DBFB /* StudentViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = StudentViewController.swift; sourceTree = "<group>"; };
 		1815EB761CE1E0C10069DBFB /* PencilViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PencilViewController.swift; sourceTree = "<group>"; };
 		1815EB781CE1E0CB0069DBFB /* BookViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BookViewController.swift; sourceTree = "<group>"; };
+		188AFEE91CE59A4B008A40F6 /* AkiraTextField.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AkiraTextField.swift; sourceTree = "<group>"; };
+		188AFEEA1CE59A4B008A40F6 /* HoshiTextField.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HoshiTextField.swift; sourceTree = "<group>"; };
+		188AFEEB1CE59A4B008A40F6 /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		188AFEEC1CE59A4B008A40F6 /* IsaoTextField.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = IsaoTextField.swift; sourceTree = "<group>"; };
+		188AFEED1CE59A4B008A40F6 /* JiroTextField.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = JiroTextField.swift; sourceTree = "<group>"; };
+		188AFEEE1CE59A4B008A40F6 /* KaedeTextField.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = KaedeTextField.swift; sourceTree = "<group>"; };
+		188AFEEF1CE59A4B008A40F6 /* MadokaTextField.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MadokaTextField.swift; sourceTree = "<group>"; };
+		188AFEF01CE59A4B008A40F6 /* MinoruTextField.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MinoruTextField.swift; sourceTree = "<group>"; };
+		188AFEF11CE59A4B008A40F6 /* TextFieldEffects.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TextFieldEffects.h; sourceTree = "<group>"; };
+		188AFEF21CE59A4B008A40F6 /* TextFieldsEffects.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TextFieldsEffects.swift; sourceTree = "<group>"; };
+		188AFEF31CE59A4B008A40F6 /* YokoTextField.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = YokoTextField.swift; sourceTree = "<group>"; };
+		188AFEF41CE59A4B008A40F6 /* YoshikoTextField.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = YoshikoTextField.swift; sourceTree = "<group>"; };
+		188AFF041CE59AD2008A40F6 /* PencilPushedView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PencilPushedView.swift; sourceTree = "<group>"; };
+		188AFF061CE59DB0008A40F6 /* MyBook-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "MyBook-Bridging-Header.h"; sourceTree = "<group>"; };
+		189D697C1CE5FC03007187B8 /* PhotoPickerViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PhotoPickerViewController.swift; sourceTree = "<group>"; };
 		18AD74FC1CE32008009E0592 /* PencilPushedViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PencilPushedViewController.swift; sourceTree = "<group>"; };
 		18AD74FF1CE321AE009E0592 /* 经典隶变简.TTF */ = {isa = PBXFileReference; lastKnownFileType = file; path = "经典隶变简.TTF"; sourceTree = "<group>"; };
 		18AD75001CE32246009E0592 /* Papyrus.ttc */ = {isa = PBXFileReference; lastKnownFileType = file; path = Papyrus.ttc; sourceTree = "<group>"; };
 		18AD75011CE323F3009E0592 /* Libian.ttc */ = {isa = PBXFileReference; lastKnownFileType = file; path = Libian.ttc; sourceTree = "<group>"; };
 		18AD75021CE36192009E0592 /* Comic Sans MS.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Comic Sans MS.ttf"; sourceTree = "<group>"; };
 		18AD750A1CE44E91009E0592 /* Factory.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Factory.swift; sourceTree = "<group>"; };
-		18AD750C1CE4B547009E0592 /* SwiftNotice.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SwiftNotice.swift; sourceTree = "<group>"; };
+		18AD750C1CE4B547009E0592 /* SwiftNotice.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = SwiftNotice.swift; path = MyBook/SwiftNotice.swift; sourceTree = "<group>"; };
 		18FD35941CE0CE37001D8F37 /* MyBook.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MyBook.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		18FD35971CE0CE37001D8F37 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		18FD35991CE0CE37001D8F37 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		18FD359C1CE0CE37001D8F37 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		18FD359E1CE0CE37001D8F37 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		18FD35A11CE0CE37001D8F37 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -107,10 +133,73 @@
 			name = more;
 			sourceTree = "<group>";
 		};
-		18AD74FB1CE31FCE009E0592 /* PencilPushedViewController */ = {
+		188AFEE81CE59A4B008A40F6 /* TextFieldEffects */ = {
+			isa = PBXGroup;
+			children = (
+				188AFEE91CE59A4B008A40F6 /* AkiraTextField.swift */,
+				188AFEEA1CE59A4B008A40F6 /* HoshiTextField.swift */,
+				188AFEEB1CE59A4B008A40F6 /* Info.plist */,
+				188AFEEC1CE59A4B008A40F6 /* IsaoTextField.swift */,
+				188AFEED1CE59A4B008A40F6 /* JiroTextField.swift */,
+				188AFEEE1CE59A4B008A40F6 /* KaedeTextField.swift */,
+				188AFEEF1CE59A4B008A40F6 /* MadokaTextField.swift */,
+				188AFEF01CE59A4B008A40F6 /* MinoruTextField.swift */,
+				188AFEF11CE59A4B008A40F6 /* TextFieldEffects.h */,
+				188AFEF21CE59A4B008A40F6 /* TextFieldsEffects.swift */,
+				188AFEF31CE59A4B008A40F6 /* YokoTextField.swift */,
+				188AFEF41CE59A4B008A40F6 /* YoshikoTextField.swift */,
+			);
+			name = TextFieldEffects;
+			path = TextFieldEffects1;
+			sourceTree = "<group>";
+		};
+		188AFF001CE59A50008A40F6 /* Frames */ = {
+			isa = PBXGroup;
+			children = (
+				188AFF091CE5CAD2008A40F6 /* SwiftNotice */,
+				188AFEE81CE59A4B008A40F6 /* TextFieldEffects */,
+			);
+			name = Frames;
+			sourceTree = "<group>";
+		};
+		188AFF011CE59AA8008A40F6 /* M */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = M;
+			sourceTree = "<group>";
+		};
+		188AFF021CE59AAC008A40F6 /* V */ = {
+			isa = PBXGroup;
+			children = (
+				188AFF041CE59AD2008A40F6 /* PencilPushedView.swift */,
+			);
+			name = V;
+			sourceTree = "<group>";
+		};
+		188AFF031CE59AB0008A40F6 /* C */ = {
 			isa = PBXGroup;
 			children = (
 				18AD74FC1CE32008009E0592 /* PencilPushedViewController.swift */,
+				189D697C1CE5FC03007187B8 /* PhotoPickerViewController.swift */,
+			);
+			name = C;
+			sourceTree = "<group>";
+		};
+		188AFF091CE5CAD2008A40F6 /* SwiftNotice */ = {
+			isa = PBXGroup;
+			children = (
+				18AD750C1CE4B547009E0592 /* SwiftNotice.swift */,
+			);
+			name = SwiftNotice;
+			sourceTree = "<group>";
+		};
+		18AD74FB1CE31FCE009E0592 /* PencilPushedViewController */ = {
+			isa = PBXGroup;
+			children = (
+				188AFF031CE59AB0008A40F6 /* C */,
+				188AFF021CE59AAC008A40F6 /* V */,
+				188AFF011CE59AA8008A40F6 /* M */,
 			);
 			name = PencilPushedViewController;
 			sourceTree = "<group>";
@@ -137,6 +226,7 @@
 		18FD358B1CE0CE37001D8F37 = {
 			isa = PBXGroup;
 			children = (
+				188AFF001CE59A50008A40F6 /* Frames */,
 				18AD74FE1CE32163009E0592 /* Resource */,
 				18FD35A91CE0CE52001D8F37 /* PodFile */,
 				18FD35961CE0CE37001D8F37 /* MyBook */,
@@ -157,7 +247,6 @@
 		18FD35961CE0CE37001D8F37 /* MyBook */ = {
 			isa = PBXGroup;
 			children = (
-				18AD750C1CE4B547009E0592 /* SwiftNotice.swift */,
 				18FD35971CE0CE37001D8F37 /* AppDelegate.swift */,
 				18AD75091CE44E7A009E0592 /* Factory */,
 				1815EB691CE1E03A0069DBFB /* more */,
@@ -166,12 +255,12 @@
 				18AD74FB1CE31FCE009E0592 /* PencilPushedViewController */,
 				1815EB651CE1E01D0069DBFB /* earth */,
 				1815EB641CE1E0120069DBFB /* book */,
-				18FD35991CE0CE37001D8F37 /* ViewController.swift */,
 				18FD359B1CE0CE37001D8F37 /* Main.storyboard */,
 				1815EB621CE1DE430069DBFB /* config.swift */,
 				18FD359E1CE0CE37001D8F37 /* Assets.xcassets */,
 				18FD35A01CE0CE37001D8F37 /* LaunchScreen.storyboard */,
 				18FD35A31CE0CE37001D8F37 /* Info.plist */,
+				188AFF061CE59DB0008A40F6 /* MyBook-Bridging-Header.h */,
 			);
 			path = MyBook;
 			sourceTree = "<group>";
@@ -261,6 +350,7 @@
 				18FD35A21CE0CE37001D8F37 /* LaunchScreen.storyboard in Resources */,
 				18FD35AA1CE0CE52001D8F37 /* PodFile in Resources */,
 				18FD359D1CE0CE37001D8F37 /* Main.storyboard in Resources */,
+				188AFEF71CE59A4B008A40F6 /* Info.plist in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -320,17 +410,28 @@
 			buildActionMask = 2147483647;
 			files = (
 				18AD75081CE36381009E0592 /* Libian.ttc in Sources */,
+				188AFEF61CE59A4B008A40F6 /* HoshiTextField.swift in Sources */,
 				1815EB751CE1E0B80069DBFB /* StudentViewController.swift in Sources */,
+				188AFEFA1CE59A4B008A40F6 /* KaedeTextField.swift in Sources */,
 				18AD750B1CE44E91009E0592 /* Factory.swift in Sources */,
 				18AD750D1CE4B547009E0592 /* SwiftNotice.swift in Sources */,
+				188AFEFF1CE59A4B008A40F6 /* YoshikoTextField.swift in Sources */,
 				1815EB771CE1E0C10069DBFB /* PencilViewController.swift in Sources */,
 				1815EB731CE1E0AD0069DBFB /* MoreViewController.swift in Sources */,
 				18AD74FD1CE32008009E0592 /* PencilPushedViewController.swift in Sources */,
 				1815EB711CE1E0970069DBFB /* EarthViewController.swift in Sources */,
+				188AFEF81CE59A4B008A40F6 /* IsaoTextField.swift in Sources */,
+				188AFEF51CE59A4B008A40F6 /* AkiraTextField.swift in Sources */,
+				188AFEFB1CE59A4B008A40F6 /* MadokaTextField.swift in Sources */,
+				188AFEFC1CE59A4B008A40F6 /* MinoruTextField.swift in Sources */,
+				188AFEFE1CE59A4B008A40F6 /* YokoTextField.swift in Sources */,
+				188AFEFD1CE59A4B008A40F6 /* TextFieldsEffects.swift in Sources */,
+				189D697D1CE5FC03007187B8 /* PhotoPickerViewController.swift in Sources */,
+				188AFEF91CE59A4B008A40F6 /* JiroTextField.swift in Sources */,
 				1815EB631CE1DE430069DBFB /* config.swift in Sources */,
 				1815EB791CE1E0CB0069DBFB /* BookViewController.swift in Sources */,
-				18FD359A1CE0CE37001D8F37 /* ViewController.swift in Sources */,
 				18FD35981CE0CE37001D8F37 /* AppDelegate.swift in Sources */,
+				188AFF051CE59AD2008A40F6 /* PencilPushedView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -442,10 +543,13 @@
 			baseConfigurationReference = BC3F061134E1369026E2D568 /* Pods.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
 				INFOPLIST_FILE = MyBook/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "-23456.MyBook";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "MyBook/MyBook-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 			};
 			name = Debug;
 		};
@@ -454,10 +558,12 @@
 			baseConfigurationReference = 39447461203713EFBFD7DF2E /* Pods.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
 				INFOPLIST_FILE = MyBook/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "-23456.MyBook";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "MyBook/MyBook-Bridging-Header.h";
 			};
 			name = Release;
 		};

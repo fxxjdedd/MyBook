@@ -7,12 +7,18 @@
 //
 
 import UIKit
-@objc protocol factoryFunctions{
+@objc protocol FactoryFunctions{
     func didTouchCancelBtn()
     func didTouchDoneBtn()
 }
+@objc protocol SetBackGroundFunctions{
+    optional func setBackGround()
+}
+@objc protocol PhotoPickerFunctions{
+    func getImageFromPicker(image : UIImage)
+}
 class Factory: UIView {
-    static var delegate : factoryFunctions?
+    static var delegate : FactoryFunctions?
     static func createNavBar(target:UIViewController){
         let navBar = UINavigationBar(frame: CGRectMake(0,0,SCREEN_WIDTH,70))
         target.view.addSubview(navBar)
@@ -27,6 +33,7 @@ class Factory: UIView {
         doneBtn.setImage(UIImage(named: "done1"), forState: UIControlState.Normal)
         doneBtn.addTarget(self, action: "doneBtn", forControlEvents: UIControlEvents.TouchUpInside)
         target.view.addSubview(doneBtn)
+        
 
     }
     override init(frame: CGRect) {
@@ -38,11 +45,11 @@ class Factory: UIView {
         fatalError("init(coder:) has not been implemented")
     }
     static func cancelBtn(){
-        delegate?.didTouchDoneBtn()
+        delegate?.didTouchCancelBtn()
     }
     
     static func doneBtn(){
-        delegate?.didTouchCancelBtn()
+        delegate?.didTouchDoneBtn()
     }
     
 }
