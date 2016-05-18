@@ -4,7 +4,17 @@
 <dict>
 	<key>SchemeUserState</key>
 	<dict>
+		<key>JVFloatLabeledTextField.xcscheme</key>
+		<dict>
+			<key>isShown</key>
+			<false/>
+		</dict>
 		<key>Pods.xcscheme</key>
+		<dict>
+			<key>isShown</key>
+			<false/>
+		</dict>
+		<key>VPImageCropper.xcscheme</key>
 		<dict>
 			<key>isShown</key>
 			<false/>
@@ -17,7 +27,16 @@
 			<key>primary</key>
 			<true/>
 		</dict>
+<<<<<<< HEAD
 		<key>1469924FC52F60B0068FA24EEFCB3EFC</key>
+=======
+		<key>266E27D897FD7FD68078059CF4D7455F</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>D7C883D8934E466349A9F2786ABFDF4F</key>
+>>>>>>> sdcjHomePage
 		<dict>
 			<key>primary</key>
 			<true/>

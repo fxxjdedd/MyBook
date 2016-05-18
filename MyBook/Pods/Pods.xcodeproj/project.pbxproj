@@ -7,61 +7,125 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		6E579FF358AF2261C8682A7FA383EAA6 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3E4E89230EF59BC255123B67864ACF77 /* Foundation.framework */; };
-		B991A49F4C12A4F8462C02B69D83DB11 /* Pods-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 272643F56613CA0D336AE3DBF19DC404 /* Pods-dummy.m */; };
+		0F5B6AC14F58EABEB001C30A452D5268 /* JVFloatLabeledTextField.m in Sources */ = {isa = PBXBuildFile; fileRef = 446667DCFCAF985F7E1A63BC0BC8471D /* JVFloatLabeledTextField.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
+		1405580EEA90D0F7327C956AA5174831 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6E7E5AF37923BFA48D6994B9BFC6535F /* Foundation.framework */; };
+		1E04E83623789E01EB3D44E0864941E5 /* JVFloatLabeledTextView.m in Sources */ = {isa = PBXBuildFile; fileRef = C68D3EF9609B24E65B6B54A0EB567B2A /* JVFloatLabeledTextView.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
+		40AA06B89210999356E0D2E03478E584 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6E7E5AF37923BFA48D6994B9BFC6535F /* Foundation.framework */; };
+		499E5A5E8F45A0E6FC10DBAB17BBB66E /* NSString+TextDirectionality.h in Headers */ = {isa = PBXBuildFile; fileRef = 04494F9A7D0A3944370301BE2F367576 /* NSString+TextDirectionality.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		7364FE24EE83FDE27F5B3D4B3CFA61C3 /* VPImageCropperViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 527CF696089E54BA79F9BF3C3F3C5290 /* VPImageCropperViewController.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
+		740275241245444929B51C5C824BC87F /* JVFloatLabeledTextField-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 46E9E9CF40493B648B65C45FAE2248C8 /* JVFloatLabeledTextField-dummy.m */; };
+		75B9287485714913A1A259FEA70BE606 /* NSString+TextDirectionality.m in Sources */ = {isa = PBXBuildFile; fileRef = 6064140592A416D899A00C132D5A39E0 /* NSString+TextDirectionality.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
+		787511AE56CDA1F5D9DA72D0127FC468 /* VPImageCropper-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 8A41650A600DAB58FF814354ACDECEE4 /* VPImageCropper-dummy.m */; };
+		8B8F1631F4854967D0FF7DF084DC3842 /* VPImageCropperViewController.h in Headers */ = {isa = PBXBuildFile; fileRef = 4F4809E153C1A94425C5BBBC44E41B0A /* VPImageCropperViewController.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		8C3C27FFD4B270EC7E8AF5E7C4051A09 /* JVFloatLabeledTextView.h in Headers */ = {isa = PBXBuildFile; fileRef = C8E693D9A83D702BDC96D5F20AF4B733 /* JVFloatLabeledTextView.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		994C714EFB8B3AD6518C9EA43A276402 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C3B7BDF5CE5CB8F095FE12DA55D9A9BB /* UIKit.framework */; };
+		CFF5177687FB45610BF82F645C636DFA /* JVFloatLabeledTextField.h in Headers */ = {isa = PBXBuildFile; fileRef = 691ABD06FCBC586AC95958F364C0B981 /* JVFloatLabeledTextField.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		D130101BBF5676F13C65B1659587C6B5 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6E7E5AF37923BFA48D6994B9BFC6535F /* Foundation.framework */; };
+		D7410755C05DC110DCAAD06121F44559 /* Pods-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 272643F56613CA0D336AE3DBF19DC404 /* Pods-dummy.m */; };
 /* End PBXBuildFile section */
 
+/* Begin PBXContainerItemProxy section */
+		E42FA926065D91C7B228AF46E9866184 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 0E6A9BD3B99532EC4D8BF7074E1FFCB7;
+			remoteInfo = VPImageCropper;
+		};
+		F499EDEF84B900CE0A568952340F0734 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 266E27D897FD7FD68078059CF4D7455F;
+			remoteInfo = JVFloatLabeledTextField;
+		};
+/* End PBXContainerItemProxy section */
+
 /* Begin PBXFileReference section */
-		02969242B2DFA28D1D60DE6A4D713593 /* AVMessage.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = AVMessage.h; sourceTree = "<group>"; };
-		06007A7FDD6E88904641873B7438B7F6 /* AVRole.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = AVRole.h; sourceTree = "<group>"; };
-		0D3D800FE2E7A20951B7111803C0AA40 /* AVAnalytics.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = AVAnalytics.h; sourceTree = "<group>"; };
+		04494F9A7D0A3944370301BE2F367576 /* NSString+TextDirectionality.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "NSString+TextDirectionality.h"; path = "JVFloatLabeledTextField/JVFloatLabeledTextField/NSString+TextDirectionality.h"; sourceTree = "<group>"; };
+		056B0C5718936D69EEC7785A3363A8E5 /* AVObject+Subclass.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "AVObject+Subclass.h"; sourceTree = "<group>"; };
+		0CBC1BADFE5D0E02F0D618138C0574D3 /* AVQuery.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = AVQuery.h; sourceTree = "<group>"; };
+		0DB63FCD97DB1F51A7CF060B07F913AF /* AVSearchSortBuilder.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = AVSearchSortBuilder.h; sourceTree = "<group>"; };
+		0F1E981FC10B2565EFDBB426CC6B4EB0 /* AVMessage.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = AVMessage.h; sourceTree = "<group>"; };
+		0F754EF99DEB0DDCDE4D34512280E511 /* libPods.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libPods.a; sourceTree = BUILT_PRODUCTS_DIR; };
 		10834806BD7B412BC24F347361FA2C8E /* Pods-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-acknowledgements.plist"; sourceTree = "<group>"; };
+		146B1547A9D41AF0B6A9A759EE7AEEED /* AVGroup.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = AVGroup.h; sourceTree = "<group>"; };
+		17BDB13739580F7490B39A027F0521F4 /* AVPush.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = AVPush.h; sourceTree = "<group>"; };
+		20EF0F7671D62EB116DEA9A42FC56124 /* AVSaveOption.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = AVSaveOption.h; sourceTree = "<group>"; };
+		21457DE7D056431AD1F4C92AA5F5D2A9 /* AVOSCloud.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = AVOSCloud.h; sourceTree = "<group>"; };
 		272643F56613CA0D336AE3DBF19DC404 /* Pods-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-dummy.m"; sourceTree = "<group>"; };
-		304717178AF620D1B50FC43E236A0A97 /* AVHistoryMessage.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = AVHistoryMessage.h; sourceTree = "<group>"; };
 		37DB56D75062CC75FCB0966E1C6E8A8E /* Pods-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-acknowledgements.markdown"; sourceTree = "<group>"; };
-		37E9E7BF7D34F021CB4C47F56BBD0747 /* AVSubclassing.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = AVSubclassing.h; sourceTree = "<group>"; };
-		3AA01A905711234E0988F0934F15954A /* libAVOSCloud.a */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = archive.ar; path = libAVOSCloud.a; sourceTree = "<group>"; };
-		3E4E89230EF59BC255123B67864ACF77 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS9.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
-		402D3EB02016FC4EB24EBB8E96933F4F /* AVGroup.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = AVGroup.h; sourceTree = "<group>"; };
-		438A3FDC12733A811A63ABCE2B0EB428 /* AVOSCloud.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = AVOSCloud.h; sourceTree = "<group>"; };
-		472653B0131A9C6A6602DE673CCB813C /* AVFileQuery.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = AVFileQuery.h; sourceTree = "<group>"; };
+		3AD7CF04DABD81444E619EB01D1D0F9E /* VPImageCropper.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = VPImageCropper.xcconfig; sourceTree = "<group>"; };
+		41E678A83446D73803F375B24ED9742A /* AVCloud.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = AVCloud.h; sourceTree = "<group>"; };
+		446667DCFCAF985F7E1A63BC0BC8471D /* JVFloatLabeledTextField.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = JVFloatLabeledTextField.m; path = JVFloatLabeledTextField/JVFloatLabeledTextField/JVFloatLabeledTextField.m; sourceTree = "<group>"; };
+		450B226BC9484533E0E036F5523C93B4 /* AVFile.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = AVFile.h; sourceTree = "<group>"; };
+		46E9E9CF40493B648B65C45FAE2248C8 /* JVFloatLabeledTextField-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "JVFloatLabeledTextField-dummy.m"; sourceTree = "<group>"; };
 		4E762F23EC34ED4A6FF3312D84E33A40 /* Pods.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = Pods.debug.xcconfig; sourceTree = "<group>"; };
-		58413053E56D81100D9476933C4F1EF7 /* AVObject.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = AVObject.h; sourceTree = "<group>"; };
-		5AA3386330CA90C617D1508B3F7B3A7D /* AVSession.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = AVSession.h; sourceTree = "<group>"; };
-		5CF3070FFDCB4EBA387084DCE51026EF /* AVAvailability.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = AVAvailability.h; sourceTree = "<group>"; };
+		4F1D8F0A4D9819BCA2FF5F65F080C016 /* AVHistoryMessage.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = AVHistoryMessage.h; sourceTree = "<group>"; };
+		4F4809E153C1A94425C5BBBC44E41B0A /* VPImageCropperViewController.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = VPImageCropperViewController.h; path = VPImageCropperDemo/VPImageCropper/VPImageCropperViewController.h; sourceTree = "<group>"; };
+		527CF696089E54BA79F9BF3C3F3C5290 /* VPImageCropperViewController.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = VPImageCropperViewController.m; path = VPImageCropperDemo/VPImageCropper/VPImageCropperViewController.m; sourceTree = "<group>"; };
+		5D3197F1D6DB4A09AE24A66BF9397FF7 /* AVHistoryMessageQuery.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = AVHistoryMessageQuery.h; sourceTree = "<group>"; };
+		5DADA75C698ED702E9F856D69E6E121E /* AVRelation.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = AVRelation.h; sourceTree = "<group>"; };
+		6064140592A416D899A00C132D5A39E0 /* NSString+TextDirectionality.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "NSString+TextDirectionality.m"; path = "JVFloatLabeledTextField/JVFloatLabeledTextField/NSString+TextDirectionality.m"; sourceTree = "<group>"; };
+		64A8BF00674D158183D77737C8005D6C /* AVLogger.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = AVLogger.h; sourceTree = "<group>"; };
+		67626C615E11881F5AF6DDFE0882B098 /* AVRole.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = AVRole.h; sourceTree = "<group>"; };
 		6911BECA35E7518D864239B7E898EEF3 /* Pods-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-frameworks.sh"; sourceTree = "<group>"; };
-		6D99A36FD409260271747A04463C08DB /* AVUser.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = AVUser.h; sourceTree = "<group>"; };
-		77177870F64A5E0145673FED7F7C1E92 /* AVFile.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = AVFile.h; sourceTree = "<group>"; };
-		7D16B7361CB6BED672294B6FBD872A8D /* AVPush.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = AVPush.h; sourceTree = "<group>"; };
-		81B0660A292D8762808F45E06CA156AD /* AVStatus.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = AVStatus.h; sourceTree = "<group>"; };
-		89C669869D3793EE03732FD5FBC05CD1 /* AVCloudQueryResult.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = AVCloudQueryResult.h; sourceTree = "<group>"; };
-		8D71200F211B0D4BBD3E11E0E1015182 /* AVConstants.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = AVConstants.h; sourceTree = "<group>"; };
-		908246D24CE04E75F1E3335883EE7384 /* AVQuery.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = AVQuery.h; sourceTree = "<group>"; };
-		964A12E8BE23E16EB944E44844D54197 /* AVRelation.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = AVRelation.h; sourceTree = "<group>"; };
-		96AD0792707CEC843043FA43C1B8805A /* AVGeoPoint.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = AVGeoPoint.h; sourceTree = "<group>"; };
-		97922FC67ED4532473B7A3ED530AC7D9 /* AVAnonymousUtils.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = AVAnonymousUtils.h; sourceTree = "<group>"; };
+		691ABD06FCBC586AC95958F364C0B981 /* JVFloatLabeledTextField.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = JVFloatLabeledTextField.h; path = JVFloatLabeledTextField/JVFloatLabeledTextField/JVFloatLabeledTextField.h; sourceTree = "<group>"; };
+		6B1D47E8A6B3795AA38C59CD1E44255E /* AVACL.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = AVACL.h; sourceTree = "<group>"; };
+		6E7E5AF37923BFA48D6994B9BFC6535F /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS9.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		72BB1719965669DB8CABC519EAA2C06D /* AVAnonymousUtils.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = AVAnonymousUtils.h; sourceTree = "<group>"; };
+		73C0CFCB5AB39678D83959CB1BCF4380 /* AVSubclassing.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = AVSubclassing.h; sourceTree = "<group>"; };
+		792E06A0E26E3D421DB246613E017217 /* AVInstallation.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = AVInstallation.h; sourceTree = "<group>"; };
+		7A8C278D21F2215EBAFB0FB882749856 /* AVGeoPoint.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = AVGeoPoint.h; sourceTree = "<group>"; };
+		80BC44D88512B96A288D5D51576D460D /* AVConstants.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = AVConstants.h; sourceTree = "<group>"; };
+		81EDF51D6431D64F8A0C1603CBC7697E /* JVFloatLabeledTextField-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "JVFloatLabeledTextField-prefix.pch"; sourceTree = "<group>"; };
+		8A41650A600DAB58FF814354ACDECEE4 /* VPImageCropper-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "VPImageCropper-dummy.m"; sourceTree = "<group>"; };
+		8F0B6B9FEB0839B19C2411E8167675A6 /* AVStatus.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = AVStatus.h; sourceTree = "<group>"; };
 		98C98CDFB3F20F2925F6CD1F141BB14F /* Pods.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = Pods.release.xcconfig; sourceTree = "<group>"; };
-		9C594EA76D448A7BAEAD020ABA24317C /* AVLogger.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = AVLogger.h; sourceTree = "<group>"; };
-		9D67EF84750F0D9C2D6D85E14F2EE1D6 /* AVObject+Subclass.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "AVObject+Subclass.h"; sourceTree = "<group>"; };
-		A11CA237ACAFFF303283F3BEED43CB03 /* AVHistoryMessageQuery.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = AVHistoryMessageQuery.h; sourceTree = "<group>"; };
+		9E2C7082F6033CF32386FF9D0B9BD2A5 /* AVAvailability.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = AVAvailability.h; sourceTree = "<group>"; };
+		9E96D7646DD79D8005FBB0EBCC88DC60 /* AVAnalytics.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = AVAnalytics.h; sourceTree = "<group>"; };
 		A1A36D34413696BE466E2CA0AFF194DA /* Pods-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-resources.sh"; sourceTree = "<group>"; };
-		BA5F3C53E61C1DD8AF6A4288DB84C8B6 /* AVSearchQuery.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = AVSearchQuery.h; sourceTree = "<group>"; };
-		BA6428E9F66FD5A23C0A2E06ED26CD2F /* Podfile */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; };
-		BA72864E7AB6E6E3A2FE521C809BA46B /* AVSaveOption.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = AVSaveOption.h; sourceTree = "<group>"; };
-		BFDCEDF11CC5329E8A2F6885DA7FBE21 /* libPods.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libPods.a; sourceTree = BUILT_PRODUCTS_DIR; };
-		C53B1A66CC5871970AF7A31EFF2FEDE4 /* AVInstallation.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = AVInstallation.h; sourceTree = "<group>"; };
-		CAE79EA8B028D7A121DBC23CAC529761 /* AVSignature.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = AVSignature.h; sourceTree = "<group>"; };
-		D12A6275D55EE77F63C386C43E3EC6E7 /* AVCloud.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = AVCloud.h; sourceTree = "<group>"; };
-		DD6707A237AED8C24CFE88D65EB32B13 /* AVSearchSortBuilder.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = AVSearchSortBuilder.h; sourceTree = "<group>"; };
-		E0DAF55B69CC73CB06220B92C5C5A2C6 /* AVACL.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = AVACL.h; sourceTree = "<group>"; };
+		A60DD7DA5C7BF74816EB1749418727ED /* libJVFloatLabeledTextField.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libJVFloatLabeledTextField.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		AC0AF85CB33F8CFBC1AD29C99DECCF1E /* libVPImageCropper.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libVPImageCropper.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		B044A429EFD74A07157722B9F0418AC8 /* libAVOSCloud.a */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = archive.ar; path = libAVOSCloud.a; sourceTree = "<group>"; };
+		B6C0E8E524A8776C3E7BACD171C37DCC /* JVFloatLabeledTextField.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = JVFloatLabeledTextField.xcconfig; sourceTree = "<group>"; };
+		BA6428E9F66FD5A23C0A2E06ED26CD2F /* Podfile */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		BE5416665C759D97DDBD62374B4314A4 /* VPImageCropper-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "VPImageCropper-prefix.pch"; sourceTree = "<group>"; };
+		C173F8897E926DAA2B021A861FC3E50C /* AVSearchQuery.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = AVSearchQuery.h; sourceTree = "<group>"; };
+		C3B7BDF5CE5CB8F095FE12DA55D9A9BB /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS9.0.sdk/System/Library/Frameworks/UIKit.framework; sourceTree = DEVELOPER_DIR; };
+		C68D3EF9609B24E65B6B54A0EB567B2A /* JVFloatLabeledTextView.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = JVFloatLabeledTextView.m; path = JVFloatLabeledTextField/JVFloatLabeledTextField/JVFloatLabeledTextView.m; sourceTree = "<group>"; };
+		C8E693D9A83D702BDC96D5F20AF4B733 /* JVFloatLabeledTextView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = JVFloatLabeledTextView.h; path = JVFloatLabeledTextField/JVFloatLabeledTextField/JVFloatLabeledTextView.h; sourceTree = "<group>"; };
+		CE5485562731F64C975417789A686187 /* AVSession.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = AVSession.h; sourceTree = "<group>"; };
+		D47BAA57E872B57562E51A3FE3A5E475 /* AVUser.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = AVUser.h; sourceTree = "<group>"; };
+		E45403E9DB4E25668A2A8F97ACF6B83F /* AVCloudQueryResult.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = AVCloudQueryResult.h; sourceTree = "<group>"; };
+		E55490C3F5C0E2FDB2E39F2B4569F89A /* AVFileQuery.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = AVFileQuery.h; sourceTree = "<group>"; };
+		EEEBEE2E0C71FC4133F2FF63E131C846 /* AVSignature.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = AVSignature.h; sourceTree = "<group>"; };
+		FE377F59881D02F33948149619C58713 /* AVObject.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = AVObject.h; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		2E78C4AC537A1782BCFD134B2B8940E0 /* Frameworks */ = {
+		82A75EF1ABCADDCBAE864D9F8BF03558 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				6E579FF358AF2261C8682A7FA383EAA6 /* Foundation.framework in Frameworks */,
+				1405580EEA90D0F7327C956AA5174831 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8C3B643E4451C0CA25C73FCE3CA5D090 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				40AA06B89210999356E0D2E03478E584 /* Foundation.framework in Frameworks */,
+				994C714EFB8B3AD6518C9EA43A276402 /* UIKit.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B6E9ED6B3D6FFDF0F6ADDFAB32529F96 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D130101BBF5676F13C65B1659587C6B5 /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -76,78 +140,85 @@
 			name = "Targets Support Files";
 			sourceTree = "<group>";
 		};
-		1E8D9E129DA3364C79ED89877499D456 /* AVOSCloud */ = {
+		06B95C77A333DC7FCE216833D10598C2 /* JVFloatLabeledTextField */ = {
 			isa = PBXGroup;
 			children = (
-				E0DAF55B69CC73CB06220B92C5C5A2C6 /* AVACL.h */,
-				0D3D800FE2E7A20951B7111803C0AA40 /* AVAnalytics.h */,
-				97922FC67ED4532473B7A3ED530AC7D9 /* AVAnonymousUtils.h */,
-				5CF3070FFDCB4EBA387084DCE51026EF /* AVAvailability.h */,
-				D12A6275D55EE77F63C386C43E3EC6E7 /* AVCloud.h */,
-				89C669869D3793EE03732FD5FBC05CD1 /* AVCloudQueryResult.h */,
-				8D71200F211B0D4BBD3E11E0E1015182 /* AVConstants.h */,
-				77177870F64A5E0145673FED7F7C1E92 /* AVFile.h */,
-				472653B0131A9C6A6602DE673CCB813C /* AVFileQuery.h */,
-				96AD0792707CEC843043FA43C1B8805A /* AVGeoPoint.h */,
-				402D3EB02016FC4EB24EBB8E96933F4F /* AVGroup.h */,
-				304717178AF620D1B50FC43E236A0A97 /* AVHistoryMessage.h */,
-				A11CA237ACAFFF303283F3BEED43CB03 /* AVHistoryMessageQuery.h */,
-				C53B1A66CC5871970AF7A31EFF2FEDE4 /* AVInstallation.h */,
-				9C594EA76D448A7BAEAD020ABA24317C /* AVLogger.h */,
-				02969242B2DFA28D1D60DE6A4D713593 /* AVMessage.h */,
-				58413053E56D81100D9476933C4F1EF7 /* AVObject.h */,
-				9D67EF84750F0D9C2D6D85E14F2EE1D6 /* AVObject+Subclass.h */,
-				438A3FDC12733A811A63ABCE2B0EB428 /* AVOSCloud.h */,
-				7D16B7361CB6BED672294B6FBD872A8D /* AVPush.h */,
-				908246D24CE04E75F1E3335883EE7384 /* AVQuery.h */,
-				964A12E8BE23E16EB944E44844D54197 /* AVRelation.h */,
-				06007A7FDD6E88904641873B7438B7F6 /* AVRole.h */,
-				BA72864E7AB6E6E3A2FE521C809BA46B /* AVSaveOption.h */,
-				BA5F3C53E61C1DD8AF6A4288DB84C8B6 /* AVSearchQuery.h */,
-				DD6707A237AED8C24CFE88D65EB32B13 /* AVSearchSortBuilder.h */,
-				5AA3386330CA90C617D1508B3F7B3A7D /* AVSession.h */,
-				CAE79EA8B028D7A121DBC23CAC529761 /* AVSignature.h */,
-				81B0660A292D8762808F45E06CA156AD /* AVStatus.h */,
-				37E9E7BF7D34F021CB4C47F56BBD0747 /* AVSubclassing.h */,
-				6D99A36FD409260271747A04463C08DB /* AVUser.h */,
-				45053847162D22311638D25723FEA96B /* Frameworks */,
+				691ABD06FCBC586AC95958F364C0B981 /* JVFloatLabeledTextField.h */,
+				446667DCFCAF985F7E1A63BC0BC8471D /* JVFloatLabeledTextField.m */,
+				C8E693D9A83D702BDC96D5F20AF4B733 /* JVFloatLabeledTextView.h */,
+				C68D3EF9609B24E65B6B54A0EB567B2A /* JVFloatLabeledTextView.m */,
+				04494F9A7D0A3944370301BE2F367576 /* NSString+TextDirectionality.h */,
+				6064140592A416D899A00C132D5A39E0 /* NSString+TextDirectionality.m */,
+				2F438A58E69E59E1C78B8539A76B29EC /* Support Files */,
 			);
-			path = AVOSCloud;
+			path = JVFloatLabeledTextField;
 			sourceTree = "<group>";
 		};
-		1F0B9F713A13B4F29BE0C0E7483B187B /* Products */ = {
+		18340F12838DEE43507667CC74401EB1 /* iOS */ = {
 			isa = PBXGroup;
 			children = (
-				BFDCEDF11CC5329E8A2F6885DA7FBE21 /* libPods.a */,
+				6E7E5AF37923BFA48D6994B9BFC6535F /* Foundation.framework */,
+				C3B7BDF5CE5CB8F095FE12DA55D9A9BB /* UIKit.framework */,
 			);
-			name = Products;
+			name = iOS;
 			sourceTree = "<group>";
 		};
-		35D88D1E99EB42F0AE08F3C354F73529 /* Pods */ = {
+		2F438A58E69E59E1C78B8539A76B29EC /* Support Files */ = {
 			isa = PBXGroup;
 			children = (
-				1E8D9E129DA3364C79ED89877499D456 /* AVOSCloud */,
+				B6C0E8E524A8776C3E7BACD171C37DCC /* JVFloatLabeledTextField.xcconfig */,
+				46E9E9CF40493B648B65C45FAE2248C8 /* JVFloatLabeledTextField-dummy.m */,
+				81EDF51D6431D64F8A0C1603CBC7697E /* JVFloatLabeledTextField-prefix.pch */,
 			);
-			name = Pods;
+			name = "Support Files";
+			path = "../Target Support Files/JVFloatLabeledTextField";
 			sourceTree = "<group>";
 		};
-		45053847162D22311638D25723FEA96B /* Frameworks */ = {
+		433CD3331B6C3787F473C941B61FC68F /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				3AA01A905711234E0988F0934F15954A /* libAVOSCloud.a */,
+				18340F12838DEE43507667CC74401EB1 /* iOS */,
 			);
 			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		45C44830E6B9FD36330F1AC002903EEA /* VPImageCropper */ = {
+			isa = PBXGroup;
+			children = (
+				4F4809E153C1A94425C5BBBC44E41B0A /* VPImageCropperViewController.h */,
+				527CF696089E54BA79F9BF3C3F3C5290 /* VPImageCropperViewController.m */,
+				C4AD8C987B7AF6CB96D626500E643DE4 /* Support Files */,
+			);
+			path = VPImageCropper;
 			sourceTree = "<group>";
 		};
 		7DB346D0F39D3F0E887471402A8071AB = {
 			isa = PBXGroup;
 			children = (
 				BA6428E9F66FD5A23C0A2E06ED26CD2F /* Podfile */,
-				BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */,
-				35D88D1E99EB42F0AE08F3C354F73529 /* Pods */,
-				1F0B9F713A13B4F29BE0C0E7483B187B /* Products */,
+				433CD3331B6C3787F473C941B61FC68F /* Frameworks */,
+				823B6D1180C29651214BF89971676844 /* Pods */,
+				FC9181342DED621E0A58FBFEBB653180 /* Products */,
 				037C0CA694176A3C0915F62C9D20B3E6 /* Targets Support Files */,
 			);
+			sourceTree = "<group>";
+		};
+		823B6D1180C29651214BF89971676844 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				F4020A9E21281E6211ABB334BBC86468 /* AVOSCloud */,
+				06B95C77A333DC7FCE216833D10598C2 /* JVFloatLabeledTextField */,
+				45C44830E6B9FD36330F1AC002903EEA /* VPImageCropper */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		ACEB0A9D2A16D097E58BC477FAFB5B0D /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				B044A429EFD74A07157722B9F0418AC8 /* libAVOSCloud.a */,
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 		B3D1D13E0C6553800746CB8FD61CF946 /* Pods */ = {
@@ -165,39 +236,140 @@
 			path = "Target Support Files/Pods";
 			sourceTree = "<group>";
 		};
-		BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */ = {
+		C4AD8C987B7AF6CB96D626500E643DE4 /* Support Files */ = {
 			isa = PBXGroup;
 			children = (
-				BF6342C8B29F4CEEA088EFF7AB4DE362 /* iOS */,
+				3AD7CF04DABD81444E619EB01D1D0F9E /* VPImageCropper.xcconfig */,
+				8A41650A600DAB58FF814354ACDECEE4 /* VPImageCropper-dummy.m */,
+				BE5416665C759D97DDBD62374B4314A4 /* VPImageCropper-prefix.pch */,
 			);
-			name = Frameworks;
+			name = "Support Files";
+			path = "../Target Support Files/VPImageCropper";
 			sourceTree = "<group>";
 		};
-		BF6342C8B29F4CEEA088EFF7AB4DE362 /* iOS */ = {
+		F4020A9E21281E6211ABB334BBC86468 /* AVOSCloud */ = {
 			isa = PBXGroup;
 			children = (
-				3E4E89230EF59BC255123B67864ACF77 /* Foundation.framework */,
+				6B1D47E8A6B3795AA38C59CD1E44255E /* AVACL.h */,
+				9E96D7646DD79D8005FBB0EBCC88DC60 /* AVAnalytics.h */,
+				72BB1719965669DB8CABC519EAA2C06D /* AVAnonymousUtils.h */,
+				9E2C7082F6033CF32386FF9D0B9BD2A5 /* AVAvailability.h */,
+				41E678A83446D73803F375B24ED9742A /* AVCloud.h */,
+				E45403E9DB4E25668A2A8F97ACF6B83F /* AVCloudQueryResult.h */,
+				80BC44D88512B96A288D5D51576D460D /* AVConstants.h */,
+				450B226BC9484533E0E036F5523C93B4 /* AVFile.h */,
+				E55490C3F5C0E2FDB2E39F2B4569F89A /* AVFileQuery.h */,
+				7A8C278D21F2215EBAFB0FB882749856 /* AVGeoPoint.h */,
+				146B1547A9D41AF0B6A9A759EE7AEEED /* AVGroup.h */,
+				4F1D8F0A4D9819BCA2FF5F65F080C016 /* AVHistoryMessage.h */,
+				5D3197F1D6DB4A09AE24A66BF9397FF7 /* AVHistoryMessageQuery.h */,
+				792E06A0E26E3D421DB246613E017217 /* AVInstallation.h */,
+				64A8BF00674D158183D77737C8005D6C /* AVLogger.h */,
+				0F1E981FC10B2565EFDBB426CC6B4EB0 /* AVMessage.h */,
+				FE377F59881D02F33948149619C58713 /* AVObject.h */,
+				056B0C5718936D69EEC7785A3363A8E5 /* AVObject+Subclass.h */,
+				21457DE7D056431AD1F4C92AA5F5D2A9 /* AVOSCloud.h */,
+				17BDB13739580F7490B39A027F0521F4 /* AVPush.h */,
+				0CBC1BADFE5D0E02F0D618138C0574D3 /* AVQuery.h */,
+				5DADA75C698ED702E9F856D69E6E121E /* AVRelation.h */,
+				67626C615E11881F5AF6DDFE0882B098 /* AVRole.h */,
+				20EF0F7671D62EB116DEA9A42FC56124 /* AVSaveOption.h */,
+				C173F8897E926DAA2B021A861FC3E50C /* AVSearchQuery.h */,
+				0DB63FCD97DB1F51A7CF060B07F913AF /* AVSearchSortBuilder.h */,
+				CE5485562731F64C975417789A686187 /* AVSession.h */,
+				EEEBEE2E0C71FC4133F2FF63E131C846 /* AVSignature.h */,
+				8F0B6B9FEB0839B19C2411E8167675A6 /* AVStatus.h */,
+				73C0CFCB5AB39678D83959CB1BCF4380 /* AVSubclassing.h */,
+				D47BAA57E872B57562E51A3FE3A5E475 /* AVUser.h */,
+				ACEB0A9D2A16D097E58BC477FAFB5B0D /* Frameworks */,
 			);
-			name = iOS;
+			path = AVOSCloud;
+			sourceTree = "<group>";
+		};
+		FC9181342DED621E0A58FBFEBB653180 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				A60DD7DA5C7BF74816EB1749418727ED /* libJVFloatLabeledTextField.a */,
+				0F754EF99DEB0DDCDE4D34512280E511 /* libPods.a */,
+				AC0AF85CB33F8CFBC1AD29C99DECCF1E /* libVPImageCropper.a */,
+			);
+			name = Products;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
 
+/* Begin PBXHeadersBuildPhase section */
+		2AB03CCA1077C149FD6671EFCD64C3AB /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CFF5177687FB45610BF82F645C636DFA /* JVFloatLabeledTextField.h in Headers */,
+				8C3C27FFD4B270EC7E8AF5E7C4051A09 /* JVFloatLabeledTextView.h in Headers */,
+				499E5A5E8F45A0E6FC10DBAB17BBB66E /* NSString+TextDirectionality.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3E15345F50486A2A681FE6106DDB51AA /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8B8F1631F4854967D0FF7DF084DC3842 /* VPImageCropperViewController.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
 /* Begin PBXNativeTarget section */
-		1469924FC52F60B0068FA24EEFCB3EFC /* Pods */ = {
+		0E6A9BD3B99532EC4D8BF7074E1FFCB7 /* VPImageCropper */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 5C358AA8BB91700063133597D41C4E0E /* Build configuration list for PBXNativeTarget "Pods" */;
+			buildConfigurationList = 2AD3A94931008A183C66C2BAAFD754B2 /* Build configuration list for PBXNativeTarget "VPImageCropper" */;
 			buildPhases = (
-				60DB2522D6809309FA2F3B04848E7536 /* Sources */,
-				2E78C4AC537A1782BCFD134B2B8940E0 /* Frameworks */,
+				ECE02FFC673B95A416F55695571C168A /* Sources */,
+				B6E9ED6B3D6FFDF0F6ADDFAB32529F96 /* Frameworks */,
+				3E15345F50486A2A681FE6106DDB51AA /* Headers */,
 			);
 			buildRules = (
 			);
 			dependencies = (
 			);
+			name = VPImageCropper;
+			productName = VPImageCropper;
+			productReference = AC0AF85CB33F8CFBC1AD29C99DECCF1E /* libVPImageCropper.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+		266E27D897FD7FD68078059CF4D7455F /* JVFloatLabeledTextField */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F17BDC6FC1B950393098EDD292C09ECF /* Build configuration list for PBXNativeTarget "JVFloatLabeledTextField" */;
+			buildPhases = (
+				313DB931CE985F1211597D142EEB3C8B /* Sources */,
+				8C3B643E4451C0CA25C73FCE3CA5D090 /* Frameworks */,
+				2AB03CCA1077C149FD6671EFCD64C3AB /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = JVFloatLabeledTextField;
+			productName = JVFloatLabeledTextField;
+			productReference = A60DD7DA5C7BF74816EB1749418727ED /* libJVFloatLabeledTextField.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+		D7C883D8934E466349A9F2786ABFDF4F /* Pods */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 85F64A89ADD0DD0D98D719F263735406 /* Build configuration list for PBXNativeTarget "Pods" */;
+			buildPhases = (
+				3DDA69BB593CECC6C3FD95BBCA0CCC73 /* Sources */,
+				82A75EF1ABCADDCBAE864D9F8BF03558 /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				6C7070BE156F59AB54D649C53B542DEC /* PBXTargetDependency */,
+				4BE16ADD9FBC98584B9EB2D367929980 /* PBXTargetDependency */,
+			);
 			name = Pods;
 			productName = Pods;
-			productReference = BFDCEDF11CC5329E8A2F6885DA7FBE21 /* libPods.a */;
+			productReference = 0F754EF99DEB0DDCDE4D34512280E511 /* libPods.a */;
 			productType = "com.apple.product-type.library.static";
 		};
 /* End PBXNativeTarget section */
@@ -217,28 +389,83 @@
 				en,
 			);
 			mainGroup = 7DB346D0F39D3F0E887471402A8071AB;
-			productRefGroup = 1F0B9F713A13B4F29BE0C0E7483B187B /* Products */;
+			productRefGroup = FC9181342DED621E0A58FBFEBB653180 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				1469924FC52F60B0068FA24EEFCB3EFC /* Pods */,
+				266E27D897FD7FD68078059CF4D7455F /* JVFloatLabeledTextField */,
+				D7C883D8934E466349A9F2786ABFDF4F /* Pods */,
+				0E6A9BD3B99532EC4D8BF7074E1FFCB7 /* VPImageCropper */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXSourcesBuildPhase section */
-		60DB2522D6809309FA2F3B04848E7536 /* Sources */ = {
+		313DB931CE985F1211597D142EEB3C8B /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				B991A49F4C12A4F8462C02B69D83DB11 /* Pods-dummy.m in Sources */,
+				740275241245444929B51C5C824BC87F /* JVFloatLabeledTextField-dummy.m in Sources */,
+				0F5B6AC14F58EABEB001C30A452D5268 /* JVFloatLabeledTextField.m in Sources */,
+				1E04E83623789E01EB3D44E0864941E5 /* JVFloatLabeledTextView.m in Sources */,
+				75B9287485714913A1A259FEA70BE606 /* NSString+TextDirectionality.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3DDA69BB593CECC6C3FD95BBCA0CCC73 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D7410755C05DC110DCAAD06121F44559 /* Pods-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		ECE02FFC673B95A416F55695571C168A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				787511AE56CDA1F5D9DA72D0127FC468 /* VPImageCropper-dummy.m in Sources */,
+				7364FE24EE83FDE27F5B3D4B3CFA61C3 /* VPImageCropperViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
+/* Begin PBXTargetDependency section */
+		4BE16ADD9FBC98584B9EB2D367929980 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = VPImageCropper;
+			target = 0E6A9BD3B99532EC4D8BF7074E1FFCB7 /* VPImageCropper */;
+			targetProxy = E42FA926065D91C7B228AF46E9866184 /* PBXContainerItemProxy */;
+		};
+		6C7070BE156F59AB54D649C53B542DEC /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = JVFloatLabeledTextField;
+			target = 266E27D897FD7FD68078059CF4D7455F /* JVFloatLabeledTextField */;
+			targetProxy = F499EDEF84B900CE0A568952340F0734 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
 /* Begin XCBuildConfiguration section */
-		2EEF68B3E0CE4CEE8BCA3D3FB593AB70 /* Release */ = {
+		26285F7E484BD739C9BB13687FAB4B21 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3AD7CF04DABD81444E619EB01D1D0F9E /* VPImageCropper.xcconfig */;
+			buildSettings = {
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/VPImageCropper/VPImageCropper-prefix.pch";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PRIVATE_HEADERS_FOLDER_PATH = "";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PUBLIC_HEADERS_FOLDER_PATH = "";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+			};
+			name = Release;
+		};
+		3480E42E6157B5309DF40FD8CAFF8B0A /* Release */ = {
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 98C98CDFB3F20F2925F6CD1F141BB14F /* Pods.release.xcconfig */;
 			buildSettings = {
@@ -255,18 +482,19 @@
 			};
 			name = Release;
 		};
-		3F5D9018D9C883FC14D3D5D1074912AD /* Debug */ = {
+		43DF720090A633996337CC665F076FA5 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 4E762F23EC34ED4A6FF3312D84E33A40 /* Pods.debug.xcconfig */;
+			baseConfigurationReference = B6C0E8E524A8776C3E7BACD171C37DCC /* JVFloatLabeledTextField.xcconfig */;
 			buildSettings = {
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/JVFloatLabeledTextField/JVFloatLabeledTextField-prefix.pch";
 				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
-				MACH_O_TYPE = staticlib;
 				MTL_ENABLE_DEBUG_INFO = YES;
 				OTHER_LDFLAGS = "";
 				OTHER_LIBTOOLFLAGS = "";
-				PODS_ROOT = "$(SRCROOT)";
+				PRIVATE_HEADERS_FOLDER_PATH = "";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PUBLIC_HEADERS_FOLDER_PATH = "";
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
 			};
@@ -311,6 +539,24 @@
 			};
 			name = Debug;
 		};
+		8D18CAD38E43326485CAD864D5D649AF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3AD7CF04DABD81444E619EB01D1D0F9E /* VPImageCropper.xcconfig */;
+			buildSettings = {
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/VPImageCropper/VPImageCropper-prefix.pch";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PRIVATE_HEADERS_FOLDER_PATH = "";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PUBLIC_HEADERS_FOLDER_PATH = "";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
 		C5A18280E9321A9268D1C80B7DA43967 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
@@ -345,9 +591,53 @@
 			};
 			name = Release;
 		};
+		C849585C5D3B5D52630D771D31922A12 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4E762F23EC34ED4A6FF3312D84E33A40 /* Pods.debug.xcconfig */;
+			buildSettings = {
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MACH_O_TYPE = staticlib;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
+		DBCE62CAB339A71CC4C585B28B08B64B /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = B6C0E8E524A8776C3E7BACD171C37DCC /* JVFloatLabeledTextField.xcconfig */;
+			buildSettings = {
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/JVFloatLabeledTextField/JVFloatLabeledTextField-prefix.pch";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PRIVATE_HEADERS_FOLDER_PATH = "";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PUBLIC_HEADERS_FOLDER_PATH = "";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+			};
+			name = Release;
+		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
+		2AD3A94931008A183C66C2BAAFD754B2 /* Build configuration list for PBXNativeTarget "VPImageCropper" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8D18CAD38E43326485CAD864D5D649AF /* Debug */,
+				26285F7E484BD739C9BB13687FAB4B21 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
 		2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
@@ -357,11 +647,20 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		5C358AA8BB91700063133597D41C4E0E /* Build configuration list for PBXNativeTarget "Pods" */ = {
+		85F64A89ADD0DD0D98D719F263735406 /* Build configuration list for PBXNativeTarget "Pods" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				3F5D9018D9C883FC14D3D5D1074912AD /* Debug */,
-				2EEF68B3E0CE4CEE8BCA3D3FB593AB70 /* Release */,
+				C849585C5D3B5D52630D771D31922A12 /* Debug */,
+				3480E42E6157B5309DF40FD8CAFF8B0A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F17BDC6FC1B950393098EDD292C09ECF /* Build configuration list for PBXNativeTarget "JVFloatLabeledTextField" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				43DF720090A633996337CC665F076FA5 /* Debug */,
+				DBCE62CAB339A71CC4C585B28B08B64B /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
